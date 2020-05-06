@@ -13,6 +13,7 @@ As [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart) spec
  scipy 1.2.1 (pip install scipy)
  python3.5 Solution.py
 ```
+You can download python 3.5.3 [here](https://www.python.org/downloads/release/python-353/)
 
 # List of solution
 
