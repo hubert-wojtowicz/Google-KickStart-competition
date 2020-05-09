@@ -21,6 +21,7 @@ You can download [python3.5.3 here](https://www.python.org/downloads/release/pyt
 
 - Bike Tour: [task](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8/00000000002d82e6), [solution code](https://github.com/hubert-wojtowicz/google-kick-start-competition/blob/master/2020-round-b/bike-tour-5pts-7pts/bike-tour-5pts-7pts.py)
 - Bus Routes: [task](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8/00000000002d83bf), [solution code](https://github.com/hubert-wojtowicz/google-kick-start-competition/blob/master/2020-round-b/bus-routes-10pts-13pts/bus-routes-10pts-13pts.py)
+- Robot Path [task](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8/00000000002d83dc). [solution code](https://github.com/hubert-wojtowicz/google-kick-start-competition/blob/master/2020-round-b/robot-path-decoding-11pts-16pts/robot-path-decoding.py)
 
 ## Round A 2020
 
