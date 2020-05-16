@@ -15,7 +15,7 @@ As [Google Kick Start](https://codingcompetitions.withgoogle.com/kickstart) indi
 ```
 You can download [python3.5.3 here](https://www.python.org/downloads/release/python-353/)
 
-# List of solution
+# List of my solution
 
 ## Round B 2020
 
@@ -26,3 +26,12 @@ You can download [python3.5.3 here](https://www.python.org/downloads/release/pyt
 ## Round A 2020
 
 - Allocaltion [task](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc7/00000000001d3f56), [solution code](https://github.com/hubert-wojtowicz/google-kick-start-competition/blob/master/2020-round-a/allocation-5pts-7pts/allocation.py)
+
+
+# Comparing to solutuins of others
+
+There are some tasks which I found to be interesting to compare mine solutions with others competitors for sake of in depth learning.
+All of those solutions I reffer to are availiable publically on [Kick Start archive](https://codingcompetitions.withgoogle.com/kickstart/archive).
+Every time i will referr to others code I will explicitely say the nickname of the author. 
+
+⚠️ WARNING: I want also notice that LICENSE for others code shown in my comparisions remains unchanged.
