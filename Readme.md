@@ -17,6 +17,10 @@ You can download [python3.5.3 here](https://www.python.org/downloads/release/pyt
 
 # List of my solution
 
+## Round C 2020
+
+- Countdown: [task](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff43/00000000003380d2), [solution code](https://github.com/hubert-wojtowicz/google-kick-start-competition/blob/master/2020-round-c/countdown-5pts-7pts/cuntdown.py)
+
 ## Round B 2020
 
 - Bike Tour: [task](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ffc8/00000000002d82e6), [solution code](https://github.com/hubert-wojtowicz/google-kick-start-competition/blob/master/2020-round-b/bike-tour-5pts-7pts/bike-tour-5pts-7pts.py)
