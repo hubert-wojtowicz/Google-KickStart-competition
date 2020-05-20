@@ -40,8 +40,9 @@ Every time i will referr to others code I will explicitely say the nickname of t
 
 ⚠️ WARNING: I want also notice that LICENSE for others code shown in my comparisions remains unchanged.
 
-# Library od algorithms implementations
+# Library of mine algorithms implementations
 
 ## Graphs
  - BFS - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/bfs.py)
- - DFS with recursion - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/dfs-recursion.py)
+ - DFS recursive - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/dfs-recursion.py)
+ - DFS iterative - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/dfs-iterative.py)
