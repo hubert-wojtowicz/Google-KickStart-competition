@@ -44,4 +44,4 @@ Every time i will referr to others code I will explicitely say the nickname of t
 
 ## Graphs
  - BFS - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/bfs.py)
- - DFS
+ - DFS with recursion - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/dfs-recursion.py)
