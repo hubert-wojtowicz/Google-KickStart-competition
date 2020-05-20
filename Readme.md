@@ -39,3 +39,9 @@ All of those solutions I reffer to are availiable publically on [Kick Start arch
 Every time i will referr to others code I will explicitely say the nickname of the author. 
 
 ⚠️ WARNING: I want also notice that LICENSE for others code shown in my comparisions remains unchanged.
+
+# Library od algorithms implementations
+
+## Graphs
+ - BFS - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/bfs.py)
+ - DFS
