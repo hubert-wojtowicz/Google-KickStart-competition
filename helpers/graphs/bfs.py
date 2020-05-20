@@ -33,23 +33,23 @@ class Graph:
 
     def BFS(self, source):
         color = {key: 0 for key, val in self.vertex.items()}
-        prev = {key: '' for key, val in self.vertex.items()}
+        ancesty = {key: None for key, val in self.vertex.items()}
         dist = {key: None for key, val in self.vertex.items()}
 
         color[source] = 1
         dist[source] = 0
-        prev[source] = None
+        ancesty[source] = None
         queue = deque([source])
         while queue:
             u = queue.popleft()
             for v in self.vertex[u]:
                 if color[v] is 0:
                     color[v] = 1
-                    prev[v] = u
+                    ancesty[v] = u
                     dist[v] = dist[u] + 1
                     queue.append(v)
             color[u] = 2
-        return (prev, dist)
+        return (ancesty, dist)
 
 
 g = Graph()
