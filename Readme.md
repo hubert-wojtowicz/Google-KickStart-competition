@@ -47,3 +47,4 @@ Every time i will referr to others code I will explicitely say the nickname of t
  - Shortest path from BFS source - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/bfs.py)
  - DFS recursive - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/dfs-recursion.py)
  - DFS iterative - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/dfs-iterative.py)
+ - Topological sort with DFS - [code](https://github.com/hubert-wojtowicz/google-kick-start-notebook/blob/master/helpers/graphs/topological-sort.py)
