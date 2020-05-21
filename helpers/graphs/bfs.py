@@ -51,6 +51,14 @@ class Graph:
             color[u] = 2
         return (ancesty, dist)
 
+    def getShortestPath(self, s, v, ancesty):
+        if s is v:
+            return s
+        elif ancesty[v] is None:
+            return "Path does not exist."
+        else:
+            return self.getShortestPath(s, ancesty[v], ancesty) + " -> {}".format(v)
+
 
 g = Graph()
 g.addTwoWayEdge('r', 'v')
@@ -66,5 +74,6 @@ g.addTwoWayEdge('u', 'y')
 
 (ancesty, dist) = g.BFS('s')
 
+print(g.getShortestPath('s', 'x', ancesty))
 print(dist)
 print(ancesty)
