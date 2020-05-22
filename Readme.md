@@ -20,6 +20,7 @@ You can download [python3.5.3 here](https://www.python.org/downloads/release/pyt
 ## Round C 2020
 
 - Countdown: [task](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff43/00000000003380d2), [solution code](https://github.com/hubert-wojtowicz/google-kick-start-competition/blob/master/2020-round-c/countdown-5pts-7pts/cuntdown.py)
+- Stable Wall: [task](https://codingcompetitions.withgoogle.com/kickstart/round/000000000019ff43/00000000003379bb), [solution code](https://github.com/hubert-wojtowicz/google-kick-start-competition/blob/master/2020-round-c/stable-wall-8pts-13pts/stable-wall.py)
 
 ## Round B 2020
 
