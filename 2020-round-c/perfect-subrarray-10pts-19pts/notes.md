@@ -1,6 +1,6 @@
 - notice relation `sum(A[L...R]) = sum(A[0...R]) - sum(A[0...L-1])` for `0 < L <= R <= N`
 - lets define `Sk = k*k` for `k >= 0` called perferct square
-- we need to remember to take into account `A[0]` if `k` exist `that A[0] == Sk`
+- we need to remember to take into account `A[0]` if `k` exist, that` A[0] == Sk`
 - we can precalculate `sum(A[0...i])`, `i = 0,1,..,N` and keep in memory
 - can also remember assigment `P: P(sum_value) -> count`, as `sum_value` belongs to finit range of `[-10^7;10^7]` numbers
 - such big range for `P` can be represented as `defaultdict(lambda: 0)` in python3 (collections.defaultdict) to avoid redundand memory consumption 
