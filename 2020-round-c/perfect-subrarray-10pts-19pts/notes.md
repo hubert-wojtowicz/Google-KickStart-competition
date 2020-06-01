@@ -1,3 +1,4 @@
+# Task theory
 - notice relation `sum(A[L...R]) = sum(A[0...R]) - sum(A[0...L-1])` for `0 < L <= R <= N`
 - lets define `Sk = k*k` for `k >= 0` called perferct square
 - we need to remember to take into account `A[0]` if `k` exist, that` A[0] == Sk`
@@ -17,3 +18,6 @@
     `0 <= Sk <= sum(A[0...i]) - min(sum(A[0...i-1]))`, solving that inequality for provided `i` we can reason set of `k` collection
 - using that restricted `k` collection we can find all possible contigious sum ending at i-index being sum of perfect square
 - we sum number of `P(sum(A[0...i]) - Sk)` for each `i=1,..,N` for resolved from ineqation `k`, this way we get answer to test set
+
+# Implementation language
+This was first time when I was unable to provide solution in python as it appeared too slow. Thanks to more control over memory allocation I provide solution in C++ language. Maybe this is the sign to switch to this language. 

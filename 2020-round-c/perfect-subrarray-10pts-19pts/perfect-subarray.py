@@ -5,22 +5,19 @@ MAX_SUM = int(1E7)
 
 
 def test_set(N, A, ps):
-    res = [0] * N
-    P = defaultdict(lambda: 0)
-    msum = 0
-    s = 0
-    P[0] += 1
+    P = [0] * (2*MAX_SUM+1)
+    P[-MAX_SUM] += 1
+    res, s, msum = (0, 0, 0)
     for i in range(N):
         s += A[i]
         if msum > s:
             msum = s
         k = 0
-        while s-msum >= 0 and ps[k] <= s-msum:
-            res[i] += P[s - ps[k]]
+        while ps[k] <= s-msum:
+            res += P[s+MAX_SUM-ps[k]]
             k += 1
-        P[s] += 1
-
-    return sum(res)
+        P[s+MAX_SUM] += 1
+    return res
 
 
 ps = [i*i for i in range(int(MAX_SUM ** 0.5))]
